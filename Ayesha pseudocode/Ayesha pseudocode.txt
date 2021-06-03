@@ -1,0 +1,118 @@
+IMPORT ARRAYLIST
+Import Scanner
+Public class AronaBeauty {
+Static scanner
+
+static ArrayList (String) Cosmetics
+static ArrayList (String) Ingredients
+static ArrayList (String) Hairs
+static ArrayList (String) Colour
+static ArrayList (Double) ProductPrice
+static ArrayList (Double) Quantity
+static ArrayList (Date)   BuyTime
+static ArrayList (String) Texture
+static ArrayList (String) Formula
+static ArrayList (Double) ServicePrice
+static ArrayList (Double) ServiceTime
+static AraayList (Double) DateofBirth
+
+main class LOGIN(){
+Switch(Select to login)
+CASE 1 
+customerMenu();
+break;
+CASE 2
+Print("Enter Team Password:");
+String password = in.nextLine();
+if (password == Ayesha); {
+mainMenu() }
+else{
+Display "Incorect password! PLEASE TRY AGAIN" {
+mainMenu() }
+
+/*****************************************************************************/
+
+addProducts(){
+Print("Add Products");
+Print("");
+do{
+
+Print("Please enter Product Name:");
+String set = in.next();
+ProductName.add(counter, set);
+
+counter++;
+Print("Do you want to add another Products?: Yes or No");
+response = in.next();}
+while (response.equalsIgnoreCase("yes"));
+adminMenu();}
+
+return(){
+int selection;
+int input;
+Print("Return");
+printCosmetic();
+Print("");
+returnAlert();
+do{
+Print("Select which cosmetics/ingredients you want to return:");
+selection = in.nextInt();
+Print("Enter the amount of stock FOR Int I = 0;I>Array;I++; "+productsName.get(selection));
+input = in.nextInt();
+quantity.set(selection, input + quantity.get(selection));
+Print("You have added "+input+ " of stock to "+productName.get(selection));
+Print("");
+
+/*********************************************************************************************/
+
+HumanResources() {
+Switch(Selection)
+CASE 1
+Moisture customer's hair;
+Break;
+CASE 2
+Strengthen hairs;
+Break; 
+CASE 3
+Stimulate growth;
+Break;
+CASE 4
+Natural grow radiate;
+Break;
+CASE 5
+Skin texture;
+Break;
+
+/*******************************************************************************************/
+
+customerMenu(){
+double tendered;
+Print("=========Products=========");
+Print("Code   Name   Qty   Price");
+printProducts();
+Print("===========================");
+int selection;
+int input;
+
+Customer.Add() {
+Print("Add Customer");
+Print("");
+do{
+
+Print("Please enter Customer Name:");
+String set = in.next();
+CustomerName.add(counter, set);
+
+Print("Please enter Customer DoB:");
+int setQty = in.nextInt();
+DoB.add(counter, setQty);
+
+Print("Please enter the CellphoneNumber:");
+double setPrice = in.nextDouble();
+CellphoneNumber.add(counter, setPrice);
+
+counter++;
+Print("Do you want to add another Customer?: Yes or No");
+response = in.next();}
+while (response.equalsIgnoreCase("yes"));
+adminMenu();}
